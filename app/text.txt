@@ -1,0 +1,38 @@
+<div className="stats shadow">
+  
+  <div className="stat">
+    <div className="stat-figure text-primary">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+    </div>
+    <div className="stat-title">Total Likes</div>
+    <div className="stat-value text-primary">25.6K</div>
+    <div className="stat-desc">21% more than last month</div>
+  </div>
+  
+  <div className="stat">
+    <div className="stat-figure text-secondary">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+    </div>
+    <div className="stat-title">Page Views</div>
+    <div className="stat-value text-secondary">2.6M</div>
+    <div className="stat-desc">21% more than last month</div>
+  </div>
+  
+  <div className="stat">
+    <div className="stat-figure text-secondary">
+      <div className="avatar online">
+        <div className="w-16 rounded-full">
+          <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+        </div>
+      </div>
+    </div>
+    <div className="stat-value">86%</div>
+    <div className="stat-title">Tasks done</div>
+    <div className="stat-desc text-secondary">31 tasks remaining</div>
+  </div>
+  
+</div>
+
+<div className="radial-progress" style={{ "--value": "70", "--size": "12rem", "--thickness": "2px" }}>70%</div>
+<div className="radial-progress" style={{ "--value": "70", "--size": "12rem", "--thickness": "2rem" }}>70%</div>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFG0lEQVR4nO2a32scVRTHp/hb0Nome84mralgFexfUK364O+CVp+06rO+iVKVFkGiDzV776RKQMTog2DMnpNRNNQa7IM/qoKl+qDGX619MubJKFolbdrElTM7KZvd+2vW2aVID1xIwsyd+7n3nO85ZyZRdNb+pzY0ML5GAd+jkGMN9J4G+lED/66BFhTQvAaeUchfK+AphfRMpcS3V9Ykq6MzwUY2Tl2ggB9UyPsV0qJGruUZCvmkQp5UUN02GH10rutZAl84wJ71yUUaaIdGns27eMeY1TDxUBIl55gg5JpCIeIybVXIRwsEWHlKQNOVMl3TDFEYSOZGI50COD2Ak2U3a4QoBGQ3VFEBfdlxCOSaDaI1vnLGzBDSFRrpp25A6IZdLxRCTqKbEArohA8kN8TghtcuzOtOIsEK6IAoWgV4c4yvw2g0ep6oXGXd2HoNybWp2kmeQTrVDBGXaas8W+4rBEJMIb+UYyfnFfDQ7nJSCp3/+d6xvnoc0F/NEApouhAImTQHxMSetcm6qE1TPdX+Somua4ZQQNPye+O1IgRxOdkUNLG4QWCeWNJIu6KCLARCA7MG/taUNFssy9heiBgn7u00RCzJF+iEwQse9ia9sLKj8ycRWyCyMeuszaQADIkJ3+IqUL1VI70qFbAC/lsh/ykuoZFHl+PBBaFLvMUBka2jus0Ogrzfp06uwB7upatT+XXkCZM6NceE6qn2i5q5pZ4n7f2EpxQXibVBxGW+Me0//iPEsmnkZz0gJ439jDRF7htp0ZYn5CSKhGg4lRVJs3lIcxY1m0Ya9rjVgchiRbiTyXRaATg3tzVJKuB9zkAH2mEP7PYhdKl6h5QuRpASPeFx9SnDifAR5zECbzY+TNSpTYi0ggA+rpBeNoPwFufmIn1lOsY51022+EhfMpiPfWcIRLagb0xzD/fT5W4v4RnTghZcNw1uSs63nMgx0/VSFNbn5S/cECnIH6a5B/v2XuyJ2/nugSB9Lu2AHSIFOeaoNGquGOy4a5nKGGvZAfy9vbFjV7D/2nKTQj7s9kezsiikV8zX04LEieSDLCfsspUd7Qa7Av4ht/wq4MfNJ8K3uJXFP2Ks3mTZpCc9rrXXdCKxRyE+MT2sDkMftwuhgD+wzauQPvOAKNNi7nbehLRoLSd6x69SQL/lBpG4LNGVjvhY8qzpzpYbX1j9zmX+otGwA6dh6IZcMEBzlVJyvf00OPYVjSNrxy413qyR3veAzEuSsj38uVKyUQN9GOJOtpMQq/QlA60S3TLHvshmGugB/07ym7Wotso6Sb2IvFmaKJHVel+Rvin5TtTJFtjLVotqqxTy236B4O3u97tIv/h3lJ6KOmQa6OmAzZyxJeiGifixAB9fUkj3FQ0RI2/3BXg2HvFOlpYF1my9QjH+kX7A52YhVncn2hkIcUTWGDSxdF6h6qOQ3nIJgPdZfclASEzobPMkAed6gAJ+MVxK+bgG1qL9uT5VpN8b3eqkVyrVSJsfduhQMEwWOxrpU+ns5LWPLFaCUob8LH+TsiPL2CFuVGuAOOgNcJsN9433hsRLp4dCPprntB0fetxtcIchDsflNzZERVjWrh7qOgTwwTyfKnJ9DE2Vozsgo8Ey247pEt3WUVeD9D8m8klsu5Yp2qNSKhToRj9Lxu7oKbiBJu43fRMMG3RKqlgpTdqW1qJNeoMY+S5JjBr4Xemn08ZJ3s7Ux5xUw9KeSl8jTZHqmbyk8IWctejMsH8BbzZqA44f/ksAAAAASUVORK5CYII=">
